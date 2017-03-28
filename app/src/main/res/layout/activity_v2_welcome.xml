@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/coordinatorlayout">
-
     <LinearLayout
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <include android:id="@+id/toolbar_v2_welcome" layout="@layout/toolbar_v2_welcome"/>
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include android:id="@+id/toolbar_v2_welcome" layout="@layout/toolbar_v2_welcome"/>
 
-     <TextView
+        <TextView
             android:text="Welcome!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,27 +19,26 @@
             android:textSize="@dimen/title_font"
             android:id="@+id/textView" />
 
-     <Button
-        android:text="Forms"
-        android:layout_height="wrap_content"
-        android:layout_width="@dimen/button_width"
-        android:id="@+id/button_forms"
-        android:layout_marginTop="250dp"
-        android:layout_marginBottom="50dp"
+        <Button
+            android:text="Forms"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_width"
+            android:id="@+id/button_forms"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp" />
 
-        android:layout_marginRight="100dp"
-        android:layout_marginLeft="100dp" />
+        <Button
+            android:text="Saved Projects"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/button_width"
+            android:id="@+id/button_saved_projects"
 
-    <Button
-        android:text="Saved Projects"
-        android:layout_height="wrap_content"
-        android:layout_width="@dimen/button_width"
-        android:id="@+id/button_saved_projects"
-
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="50dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginLeft="100dp" />
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp" />
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

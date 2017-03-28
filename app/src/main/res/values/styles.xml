@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
      <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"> 
          <!-- Customize your theme here. --> 
-         <item name="colorPrimary">@color/colorPrimary</item> 
-         <item name="colorPrimaryDark">@color/colorPrimaryDark</item> 
-         <item name="colorAccent">@color/colorAccent</item>
+         <item name="colorPrimary">@color/colorOrange</item> 
+         <item name="colorPrimaryDark">@color/colorOrange</item> 
+         <item name="colorAccent">@color/colorOrange</item>
      </style>
          <style name="AppTheme.NoActionBar">  
         <item name="windowActionBar">false</item>  
@@ -12,8 +12,8 @@
     </style>
 
      <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
-         <item name="android:textColorSecondary">@color/colorPrimary</item> 
-         <item name="android:textColorPrimary">@color/colorPrimaryDark</item> 
+         <item name="android:textColorSecondary">@color/colorRed</item> 
+         <item name="android:textColorPrimary">@color/colorRed</item> 
          <item name="android:actionBarItemBackground">@color/colorAccent</item>
           <!--  <item name="android:textColorPrimary">@color/colorYellow</item>
             <item name="android:textColorSecondary">@color/colorYellow</item>
@@ -22,8 +22,8 @@
      </style>
 
      <style name="MyPopupTheme" parent="ThemeOverlay.AppCompat.Light">
-         <item name="android:textColorPrimary">@color/colorPrimaryDark</item> 
-         <item name="android:actionBarItemBackground">@color/colorAccent</item>
+         <item name="android:textColorPrimary">@color/colorOrange</item> 
+         <item name="android:actionBarItemBackground">@color/colorOrange</item>
          <!--   <item name="android:textColorPrimary">@color/colorGreen</item>
             <item name="android:actionBarItemBackground">@color/colorWhite</item> -->
      </style>

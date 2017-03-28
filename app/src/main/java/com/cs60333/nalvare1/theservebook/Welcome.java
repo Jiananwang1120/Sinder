@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,7 +23,7 @@ public class Welcome extends AppCompatActivity {
 
         Toolbar my_tool_bar = (Toolbar) findViewById(R.id.toolbar_v2_welcome);
         setSupportActionBar(my_tool_bar);
-        my_tool_bar.setTitle("Welcome!");
+        my_tool_bar.setTitle("Main Menu");
 
 
         //Forms Button (transition to Forms_V Activity)
@@ -46,6 +47,7 @@ public class Welcome extends AppCompatActivity {
         });
     }
 
+    // Menu/Toolbar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -53,23 +55,20 @@ public class Welcome extends AppCompatActivity {
         return true;
     }
 
-    /*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int res_id = item.getItemId();
 
-        if (res_id == R.id.add_v3a) {
+        if (res_id == R.id.edit_profile_v2) {
             //??
 
-        } else if (res_id == R.id.delete_v3a) {
-            //??
-        } else if (res_id == R.id.edit_v3a) {
-            //??
-        } else if (res_id == exit_v3a) {
+        } else if (res_id == R.id.logout_v2) {
+            startActivity(new Intent(Welcome.this, LoginActivity.class));
+        } else if (res_id == R.id.close_v2) {
             //??
         }
         return true;
     }
-    */
+
 
 }
