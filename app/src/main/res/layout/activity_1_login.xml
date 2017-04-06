@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="36dp"
+        android:textSize="@dimen/title_font"
         android:id="@+id/textView" />
 
     <ProgressBar
@@ -75,7 +75,8 @@
                 android:text="Service Moderator?"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/checkBox" />
+                android:id="@+id/checkBox"
+                android:onClick="itemClicked"/>
 
             <Button
                 android:id="@+id/email_sign_in_button"
